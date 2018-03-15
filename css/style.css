@@ -1,0 +1,113 @@
+html {
+	overflow-x: hidden;
+	font-family: helvetica, sans-serif;
+
+}
+
+
+body {
+    background-color: #B41608;
+  }
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ /* background-color: pink;*/
+  flex-direction: column;
+  margin: 3%;
+
+}
+
+.container > div{
+	/*background-color: orange;*/
+	/*margin:2%;*/
+	flex-grow: 1;
+}
+
+#pr{
+	text-align: right;
+	margin-right: 18%;
+}
+
+h1{
+	font-weight: bold;
+	color: #FFEADA;
+	font-size: 7em;
+	text-align: center;
+
+}
+p{
+	font-size: 1em;
+}
+
+
+#title{
+	border-top: 0.25em solid black;
+	border-bottom: 0.25em solid black;
+}
+
+#celebrate{
+	margin-top: 1%;
+	font-weight: bold;
+	border-top: 0.25em solid black;
+
+	
+}
+
+#nt{
+	font-size: 2em;
+	margin-left: 28%;
+	margin-top: 4%
+}
+
+#when{
+	margin-left: 7%;
+}
+
+.flex-container{
+	display: flex;
+	/*background-color: blue;*/
+	margin: 3%;
+}
+
+#one{
+	/*background-color: white;*/
+	flex-grow: 2;
+	flex-basis: 0;
+	
+	border-bottom: 0.25em solid black;
+
+}
+
+#two{
+	/*background-color: yellow;*/
+	flex-grow: 4;
+	
+	border-bottom: 0.25em solid black;
+	flex-basis: 0;
+	font-weight: bold;
+	
+}
+
+#name{
+	font-size: 2em;
+	padding-top: 5%;
+	margin-left: 25%
+}
+
+
+#three{
+	/*background-color: white;*/
+	flex-grow: 2;
+	flex-basis: 0;
+	border-bottom: 0.25em solid black;
+}
+
+#four{
+	/*background-color: yellow;*/
+	flex: 2;
+	flex-basis: 0;
+	
+	border-bottom: 0.25em solid black;
+}
