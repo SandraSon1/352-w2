@@ -13,15 +13,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- /* background-color: pink;*/
   flex-direction: column;
   margin: 3%;
 
 }
 
 .container > div{
-	/*background-color: orange;*/
-	/*margin:2%;*/
 	flex-grow: 1;
 }
 
@@ -67,23 +64,21 @@ p{
 
 .flex-container{
 	display: flex;
-	/*background-color: blue;*/
 	margin: 3%;
+	flex-wrap: wrap;
+
 }
 
 #one{
-	/*background-color: white;*/
+	
 	flex-grow: 2;
 	flex-basis: 0;
-	
 	border-bottom: 0.25em solid black;
 
 }
 
 #two{
-	/*background-color: yellow;*/
 	flex-grow: 4;
-	
 	border-bottom: 0.25em solid black;
 	flex-basis: 0;
 	font-weight: bold;
@@ -98,16 +93,49 @@ p{
 
 
 #three{
-	/*background-color: white;*/
 	flex-grow: 2;
 	flex-basis: 0;
 	border-bottom: 0.25em solid black;
 }
 
 #four{
-	/*background-color: yellow;*/
 	flex: 2;
 	flex-basis: 0;
-	
 	border-bottom: 0.25em solid black;
+}
+
+
+
+@media (max-width: 580px){
+	#one{
+		flex-basis:100%;
+		border-bottom: 0;
+
+	}
+
+		#two{
+		flex-basis:100%;
+		border-bottom:0;
+	}
+		#three{
+		flex-basis:100%;
+		border-bottom: 0;
+	}
+		#four{
+		flex-basis:100%;
+	}
+
+	#pr{
+		text-align: left;
+	}
+
+	#when{
+		margin-left: 0;
+
+	}
+
+	h1{
+		font-size: 4em;
+	}
+
 }
